@@ -23,9 +23,10 @@ validate()
 {
    if [ $1 -ne 0 ]
    then
-   echo "ERROR with installations"
+   echo "ERROR with installations of $2"
    else
-   echo "Installations are success"
+   echo "Installations for $2 are success"
    fi
 }
-validate $?
+validate $? "Mysql"
+validate $? "postfix"
