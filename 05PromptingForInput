@@ -1,0 +1,7 @@
+#!#bin/bash
+echo "Entering inputs from terminal when prompted by script during execution"
+read Username
+echo "Enter username is: $Username"
+echo "Please enter password" #not showing input entered to user"
+read -s Password
+echo "Enter Password is $Password"
