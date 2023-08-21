@@ -19,3 +19,13 @@ then
 else 
 echo "Installation of Postfix is success"
 fi
+validate()
+{
+   if [ $1 -ne 0 ]
+   then
+   echo "ERROR with installations"
+   else
+   echo "Installations are success"
+   fi
+}
+validate $?
