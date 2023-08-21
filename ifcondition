@@ -1,0 +1,7 @@
+#!/bin/bash
+Num=$1
+if[Num gt 10]
+then
+echo "Entered input is greater than 10"
+else
+echo "Entered number is less than 10"
