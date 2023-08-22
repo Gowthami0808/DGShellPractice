@@ -7,3 +7,7 @@ for i in {10..15}
 do
    echo "Welcome $i times"
 done
+for i in {15...25}
+do
+   echo "$i"
+done
