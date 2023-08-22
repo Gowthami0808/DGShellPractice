@@ -14,3 +14,10 @@ for i in {0..10..2}
 do
   echo "Welcome stepd $i times"
 done
+
+#install packages with for loop
+
+for i in $@
+do
+  yum install $i -y
+done
