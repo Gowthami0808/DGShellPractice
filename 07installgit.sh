@@ -24,7 +24,7 @@ if [ $? -ne 0 ]
 then 
   echo -e "$Red Installation of postfix is an error $normal"
 else 
-echo -e "$Red Installation of Postfix is success $normal"
+echo -e "$green Installation of Postfix is success $normal"
 fi
 validate()
 {
