@@ -1,5 +1,5 @@
 #!/bin/bash
-for item in {1...25}
+for i in {1...25}
 do
-   echo $item
+   echo $i
 done
